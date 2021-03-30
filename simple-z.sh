@@ -5,7 +5,7 @@ echo "Copyright 2021"
 user_found=0
 user_name="something"
 echo "Determining Linux Distribution"
-DISTRO = grep '^NAME' /etc/os-release
+DISTRO=$(grep '^NAME' /etc/os-release)
 
 if [ "$DISTRO" == "Debian GNU/Linux" ]
 then
