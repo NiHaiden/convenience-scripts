@@ -37,15 +37,3 @@ then
     echo "Installing oh-my-zsh"    
     su -c sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)" "" --unattended $user_name
 fi
-
-
-
-
-
-
-
-
-
-
-    
-
