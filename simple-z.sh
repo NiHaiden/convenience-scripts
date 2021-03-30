@@ -5,9 +5,9 @@ echo "Copyright 2021"
 user_found=0
 user_name="something"
 echo "Determining Linux Distribution"
-DISTRO=$(grep '^NAME' /etc/os-release)
+distro="Debian GNU/Linux"
 
-if [ "$DISTRO" == "Debian GNU/Linux" ]
+if [ "$distro" == "Debian GNU/Linux" ]
 then
     
     echo "Installing needed dependencies"
