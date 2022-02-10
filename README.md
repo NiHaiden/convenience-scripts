@@ -4,6 +4,7 @@ Sometimes setting up docker or other software can be a bit of a hassle. Get star
 
 ## Webserver
 - [Caddy Installation Script for Debuntu](#usage-of-caddy-install-script-for-debian--ubuntu)
+- [Caddy Installation Script for Fedora & RHEL8](#usage-of-caddy-install-script-for-fedora--rhel8-based-distros)
 
 
 ## Docker Scripts
@@ -25,6 +26,11 @@ curl https://raw.githubusercontent.com/NiHaiden/convenience-scripts/main/docker/
 # Usage of Caddy Install Script for Debian & Ubuntu 
 ```Bash
 curl https://raw.githubusercontent.com/NiHaiden/convenience-scripts/main/webserver/caddy-install-debuntu.sh | sudo bash
+```
+
+# Usage of Caddy Install Script for Fedora & RHEL8(-based) Distros
+```Bash
+curl https://raw.githubusercontent.com/NiHaiden/convenience-scripts/main/webserver/caddy-install-fedora-rhel8.sh | sudo bash
 ```
 
 # Usage of Docker Install Script for Fedora
