@@ -12,3 +12,8 @@ curl https://raw.githubusercontent.com/NiHaiden/convenience-scripts/main/docker/
 ```Bash
 curl https://raw.githubusercontent.com/NiHaiden/convenience-scripts/main/docker/docker-install-ubuntu.sh | sudo bash
 ```
+
+# Usage of Caddy Install Script for Debian & Ubuntu 
+```Bash
+curl https://raw.githubusercontent.com/NiHaiden/convenience-scripts/main/webserver/caddy-install-debuntu.sh | sudo bash
+```
