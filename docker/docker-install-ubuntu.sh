@@ -7,7 +7,6 @@ sudo apt-get remove docker docker-engine docker.io containerd runc -y
 echo "Installing needed dependencies"
 sudo apt-get install \
     ca-certificates \
-    curl \
     gnupg \
     lsb-release -y 
 

@@ -10,10 +10,8 @@ sudo apt-get update
 sudo apt-get install \
     apt-transport-https \
     ca-certificates \
-    curl \
     gnupg-agent \
-    software-properties-common \
-    curl -y
+    software-properties-common -y
 
 
 echo "Adding the Docker GPG Key to verify the Docker's signature."
