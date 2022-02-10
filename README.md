@@ -1,7 +1,7 @@
 # convenience-scripts
-Simple scripts that ease the pain of setting up a lot of things 😁
+Sometimes setting up docker or other software can be a bit of a hassle. Get started quickly with these scripts. 
 
-Note: You should have bash & curl installed or else the quick commands below wont work. (:  
+**Note: Please have bash, curl and sudo installed. Everything else will be installed.**
 
 # Usage of Docker Install Script for Debian
 ```Bash
